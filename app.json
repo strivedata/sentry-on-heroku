@@ -1,7 +1,7 @@
 {
   "name": "Sentry",
   "description": "Sentry is a realtime event logging and aggregation platform",
-  "repository": "https://github.com/fastmonkeys/sentry-on-heroku",
+  "repository": "https://github.com/flybaseio/sentry-on-heroku",
   "website": "http://getsentry.com",
   "keywords": [
     "logging",
