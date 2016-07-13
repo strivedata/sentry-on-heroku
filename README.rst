@@ -18,7 +18,7 @@ your Heroku account.
 .. image:: https://www.herokucdn.com/deploy/button.png
    :target: https://heroku.com/deploy
    :alt: Deploy
-
+   
 Finally, you need to setup your first user::
 
     heroku run "sentry --config=sentry.conf.py createuser" --app YOURAPPNAME
@@ -63,6 +63,10 @@ Follow the steps below to get Sentry up and running on Heroku:
 8. Create a user account for yourself::
 
         heroku run "sentry --config=sentry.conf.py createuser"
+
+9. Configure workers
+
+        heroku ps:scale worker=0 beat=0 worker_plus_beat=1
 
 That's it!
 
