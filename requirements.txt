@@ -72,7 +72,6 @@ sentry-flowdock==0.1.1
 sentry-github==0.1.2
 sentry-trello
 sentry-slack
-sentry-heroku==0.1.0      # via sentry
 sentry==8.5.1
 setproctitle==1.1.10      # via sentry
 simplejson==3.8.2         # via sentry
